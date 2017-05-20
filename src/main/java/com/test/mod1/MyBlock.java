@@ -32,7 +32,8 @@ class MyBlock extends Block {
     System.out.println("onEntityWalk "+pos.toString());
 
     BlockPos p = entityIn.getPosition();
-    entityIn.setPosition(p.getX()+2, p.getY()+2, p.getZ());
+    entityIn.setPosition(p.getX()+5, p.getY()+5, p.getZ()+5);
+
 
 //    worldIn.setBlockToAir(pos);
 
